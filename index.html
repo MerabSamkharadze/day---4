@@ -1,0 +1,119 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jer.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://cdn.iconscout.com/icon/premium/png-256-thumb/menu-1994235-1681960.png">
+    <title>website</title>
+  </head>
+  
+  <body data-new-gr-c-s-check-loaded="14.1056.0" data-gr-ext-installed="">
+  
+    <div class="wrapper">
+        <nav class="menu">
+            <button aria-expanded="true" aria-controls="menu-list">
+              <span class="open">☰</span>
+              <span class="close">×</span>
+              Menu
+            </button>
+            <ul id="menu-list">
+              <li>
+                <a href="#">Choco</a>
+              </li>
+              <li>
+                <a href="#">Pancake</a>
+              </li>
+              <li>
+                <a href="#">Waffle</a>
+              </li>
+              <li>
+                <a href="#">Desserts</a>
+              </li>
+              <li>
+                <a href="#">Cakes</a>
+              </li>
+            </ul>
+          </nav>
+      <div class="top">
+        <header class="hero">
+          <h1>Mebo's Pancakes</h1>
+          <p>Pretty Good Taste</p>
+        </header>
+        <div class="cta cta1">
+          <p class="price">&#x20BE 3</p>
+          <p>Coffee</p>
+        </div>
+        <div class="cta cta2">
+          <p class="price">&#x20BE 5</p>
+          <p>Pancake</p>
+        </div>
+  
+      </div>
+  
+      <section class="features">
+        <div class="feature">
+          <span class="icon">🎂</span> 
+          <h3>Cake</h3>
+          <p>We have the most delicious cakes</p>
+        </div>
+        <div class="feature">
+          <span class="icon">🍰</span>
+          <h3>Cheesecakes</h3>
+          <p>Delicious cheesecakes</p>
+        </div>
+        <div class="feature">
+          <span class="icon">☕</span>
+          <h3>Coffee</h3>
+          <p>Different types of coffee</p>
+        </div>
+        <div class="feature">
+          <span class="icon">🥞</span>
+          <h3>Pancakes</h3>
+          <p>Excellent pancakes</p>
+        </div>
+      </section>
+  
+      <section class="about">
+        <img src="queso-taco.png" alt="Yummy Taco" class="about__mockup">
+        <div class="about__details">
+          <h2 class="ad">Cakes and Pancakes</h2>
+          <p class="ad">Puff pastry with sweet and savory chocolate.</p>
+          <p class="ad">This is the one you have been waiting for</p>
+          <button class="learn">Learn More →</button>
+        </div>
+      </section>
+  
+  
+      <section class="gallery">
+        <h2>Instant Grams</h2>
+        <img src="1.jpg" alt="">
+        <img src="2.jpg" alt="">
+        <img src="3.png" alt="">
+        <img src="4.jpg" alt="">
+        <img src="5.png" alt="">
+        <img src="6.jpg" alt="">
+        <img src="7.jpg" alt="">
+        <img src="8.jpg" alt="">
+        <img src="9.jpg" alt="">
+        <img src="10.jpg" alt="">
+        <img src="11.webp" alt="">
+        <img src="12.jpg" alt="">
+
+      </section>
+    </div>
+  
+    <script>
+      const navButton = document.querySelector('button[aria-expanded]');
+  
+      function toggleNav({ target }) {
+        const expanded = target.getAttribute('aria-expanded') === 'true' || false;
+        navButton.setAttribute('aria-expanded', !expanded);
+      }
+  
+      navButton.addEventListener('click', toggleNav);
+    </script>
+  
+  
+  
+  
+  </body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
